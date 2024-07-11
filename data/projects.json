@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "title": "FinTech Dashboard Redesign",
+    "description": "Overhauled the user interface for a complex financial analytics dashboard, improving data visualization and user efficiency.",
+    "tags": [
+      "UX Design",
+      "Data Visualization",
+      "Financial Services",
+      "Dashboard"
+    ],
+    "logo": "/images/project-logos/nexus-pay.png",
+    "thumbnail": "/images/project-thumbnails/nexus-pay-thumbnail.png",
+    "screenshots": [
+      "/images/project-screenshots/fintech-screen1.jpg",
+      "/images/project-screenshots/fintech-screen2.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "E-commerce Mobile App",
+    "description": "Designed a user-friendly mobile shopping experience with intuitive navigation and streamlined checkout process.",
+    "tags": [
+      "UX Design",
+      "Mobile App",
+      "E-commerce",
+      "Interaction"
+    ],
+    "logo": "/images/project-logos/nexus-pay.png",
+    "thumbnail": "/images/project-thumbnails/nexus-pay-thumbnail.png",
+    "screenshots": [
+      "/images/project-screenshots/ecommerce-screen1.jpg",
+      "/images/project-screenshots/ecommerce-screen2.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Healthcare Provider Portal",
+    "description": "Created a comprehensive design system for a healthcare provider portal, focusing on accessibility and efficient information management.",
+    "tags": [
+      "UX Design",
+      "Design System",
+      "Healthcare",
+      "Accessibility"
+    ],
+    "logo": "/images/project-logos/nexus-pay.png",
+    "thumbnail": "/images/project-thumbnails/nexus-pay-thumbnail.png",
+    "screenshots": [
+      "/images/project-screenshots/healthcare-screen1.jpg",
+      "/images/project-screenshots/healthcare-screen2.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Social Media Analytics Tool",
+    "description": "Developed an intuitive interface for a social media analytics platform, emphasizing data visualization and user customization.",
+    "tags": [
+      "UX Design",
+      "Data Visualization",
+      "Social Media",
+      "Analytics"
+    ],
+    "logo": "/images/project-logos/nexus-pay.png",
+    "thumbnail": "/images/project-thumbnails/nexus-pay-thumbnail.png",
+    "screenshots": [
+      "/images/project-screenshots/social-analytics-screen1.jpg",
+      "/images/project-screenshots/social-analytics-screen2.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Smart Home Control App",
+    "description": "Designed a user-friendly mobile app for controlling smart home devices, focusing on intuitive interactions and device management.",
+    "tags": [
+      "UX Design",
+      "IoT",
+      "Mobile App",
+      "Interaction"
+    ],
+    "logo": "/images/project-logos/nexus-pay.png",
+    "thumbnail": "/images/project-thumbnails/nexus-pay-thumbnail.png",
+    "screenshots": [
+      "/images/project-screenshots/smart-home-screen1.jpg",
+      "/images/project-screenshots/smart-home-screen2.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Travel Booking Platform Redesign",
+    "description": "Revamped a travel booking website with a focus on improving the search and booking process, resulting in increased conversions.",
+    "tags": [
+      "UX Design",
+      "Web Design",
+      "Travel",
+      "Conversion Optimization"
+    ],
+    "logo": "/images/project-logos/nexus-pay.png",
+    "thumbnail": "/images/project-thumbnails/nexus-pay-thumbnail.png",
+    "screenshots": [
+      "/images/project-screenshots/travel-screen1.jpg",
+      "/images/project-screenshots/travel-screen2.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Productivity Suite Design System",
+    "description": "Led the creation of a comprehensive design system for a suite of productivity tools, ensuring consistency across web and mobile platforms.",
+    "tags": [
+      "UX Design",
+      "Design System",
+      "Productivity",
+      "Cross-platform"
+    ],
+    "logo": "/images/project-logos/nexus-pay.png",
+    "thumbnail": "/images/project-thumbnails/nexus-pay-thumbnail.png",
+    "screenshots": [
+      "/images/project-screenshots/productivity-screen1.jpg",
+      "/images/project-screenshots/productivity-screen2.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "AI-powered Personal Assistant",
+    "description": "Designed the user interface for an AI-powered personal assistant, focusing on natural language interactions and proactive suggestions.",
+    "tags": [
+      "UX Design",
+      "AI",
+      "Voice UI",
+      "Interaction"
+    ],
+    "logo": "/images/project-logos/nexus-pay.png",
+    "thumbnail": "/images/project-thumbnails/nexus-pay-thumbnail.png",
+    "screenshots": [
+      "/images/project-screenshots/ai-assistant-screen1.jpg",
+      "/images/project-screenshots/ai-assistant-screen2.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Educational Platform for Kids",
+    "description": "Created an engaging and intuitive learning platform for children, incorporating gamification elements and adaptive learning paths.",
+    "tags": [
+      "UX Design",
+      "Education",
+      "Gamification",
+      "Accessibility"
+    ],
+    "logo": "/images/project-logos/nexus-pay.png",
+    "thumbnail": "/images/project-thumbnails/nexus-pay-thumbnail.png",
+    "screenshots": [
+      "/images/project-screenshots/edu-kids-screen1.jpg",
+      "/images/project-screenshots/edu-kids-screen2.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Cryptocurrency Exchange Interface",
+    "description": "Designed a user-friendly interface for a cryptocurrency exchange, focusing on security features and real-time market data visualization.",
+    "tags": [
+      "UX Design",
+      "Fintech",
+      "Cryptocurrency",
+      "Data Visualization"
+    ],
+    "logo": "/images/project-logos/nexus-pay.png",
+    "thumbnail": "/images/project-thumbnails/nexus-pay-thumbnail.png",
+    "screenshots": [
+      "/images/project-screenshots/crypto-exchange-screen1.jpg",
+      "/images/project-screenshots/crypto-exchange-screen2.jpg"
+    ]
+  }
+]
