@@ -1,5 +1,15 @@
 <script setup lang="ts">
+    import users from '~/data/users.json'
 
+    // Motion properties
+    const initialMotion = ref({
+        y: 30,
+        opacity: 0
+    })
+    const initialMotionEnter = ref({
+        y: 0,
+        opacity: 1,
+    })
 </script>
 
 <template>
@@ -8,13 +18,9 @@
             <p
                 class="mb-6 text-gray-400 text-[44px] font-bold tracking-wide"
                 v-motion="{
-                  initial: {
-                    y: 30,
-                    opacity: 0
-                  },
+                  initial: initialMotion,
                   enter: {
-                    y: 0,
-                    opacity: 1,
+                    ...initialMotionEnter,
                     transition: {
                         duration: 500
                     },
@@ -26,13 +32,9 @@
             <h1
                 class="mb-14 text-slate-800 text-[64px] font-semibold leading-[86px] tracking-wide"
                 v-motion="{
-                  initial: {
-                    y: 30,
-                    opacity: 0
-                  },
+                  initial: initialMotion,
                   enter: {
-                    y: 0,
-                    opacity: 1,
+                    ...initialMotionEnter,
                     transition: {
                         duration: 500,
                         delay: 500
@@ -46,13 +48,9 @@
                 <div
                     class="grid gap-14 p-8 rounded-[32px] bg-gray-100"
                     v-motion="{
-                      initial: {
-                        y: 30,
-                        opacity: 0
-                      },
+                      initial: initialMotion,
                       enter: {
-                        y: 0,
-                        opacity: 1,
+                        ...initialMotionEnter,
                         transition: {
                             duration: 500,
                             delay: 1000
@@ -68,13 +66,9 @@
                 <div
                     class="grid gap-14 p-8 rounded-[32px] bg-gray-100"
                     v-motion="{
-                      initial: {
-                        y: 30,
-                        opacity: 0
-                      },
+                      initial: initialMotion,
                       enter: {
-                        y: 0,
-                        opacity: 1,
+                        ...initialMotionEnter,
                         transition: {
                             duration: 500,
                             delay: 1100
@@ -90,13 +84,9 @@
                 <div
                     class="grid gap-14 p-8 rounded-[32px] bg-gray-100"
                     v-motion="{
-                      initial: {
-                        y: 30,
-                        opacity: 0
-                      },
+                      initial: initialMotion,
                       enter: {
-                        y: 0,
-                        opacity: 1,
+                        ...initialMotionEnter,
                         transition: {
                             duration: 500,
                             delay: 1200
@@ -106,6 +96,33 @@
                 >
                     <div class="flex flex-wrap items-center justify-between gap-4">
                         <p class="text-slate-800 text-[44px] font-bold leading-[60px] tracking-wide">120+ million</p>
+                        <div class="flex -space-x-4">
+                            <div
+                                class="size-[40] p-[1px] rounded-full overflow-hidden bg-white"
+                                v-motion="{
+                                  initial: {
+                                    x: 10,
+                                    opacity: 0
+                                  },
+                                  enter: {
+                                    x: 0,
+                                    opacity: 1,
+                                    transition: {
+                                        duration: 700,
+                                        delay: 1200 + (userIndex * 50)
+                                    },
+                                  }
+                                }"
+                                v-for="(user, userIndex) in users"
+                            >
+                                <NuxtImg
+                                    width="40"
+                                    height="40"
+                                    :src="user"
+                                    class="rounded-full"
+                                />
+                            </div>
+                        </div>
                     </div>
                     <p class="text-gray-500 text-base font-normal leading-normal tracking-tight">
                         People have positively impacted by works through out the journey
