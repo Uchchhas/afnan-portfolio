@@ -33,8 +33,8 @@
           }
         }"
     >
-        <div>
-            <div class="mb-4 p-4 rounded-[24px] bg-white">
+        <div class="flex flex-col">
+            <div class="grow flex flex-col mb-4 p-4 rounded-[24px] bg-white">
                 <NuxtImg
                     width="72"
                     height="72"
@@ -42,13 +42,15 @@
                     :alt="project?.title"
                     class="mb-12"
                 />
-                <p class="mb-4 text-gray-800 text-2xl font-semibold leading-loose">
-                    {{ project?.title }}
-                </p>
-                <p class="mb-14 text-gray-500 text-base font-normal leading-normal">
-                    {{ project?.description }}
-                </p>
-                <div class="flex flex-wrap gap-3">
+                <div>
+                    <p class="mb-4 text-gray-800 text-2xl font-semibold leading-loose">
+                        {{ project?.title }}
+                    </p>
+                    <p class="mb-14 text-gray-500 text-base font-normal leading-normal">
+                        {{ project?.description }}
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-3 mt-auto">
                     <div
                         v-for="(tag, tagIndex) in project?.tags"
                         class="px-3 py-1.5 items-center justify-center inline-flex gap-[3px] text-center text-slate-700 text-sm font-medium leading-tight rounded-[30px] bg-gray-100"
@@ -63,6 +65,9 @@
                 View case study
                 <icon-svg-top-right-corner class="text-slate-700 group-hover:text-white transition-colors"/>
             </NuxtLink>
+        </div>
+        <div>
+            <NuxtImg width="772" height="580" :src="project?.thumbnail" :alt="project?.title" class="rounded-[24px]"/>
         </div>
     </div>
 </template>
